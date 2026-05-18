@@ -1,5 +1,11 @@
+:root{
+    --cor-padrão:  #4682b4;
+    --border: 1px solid #000000;
+    --sombra: 0 0 30px gray;
+}
+
 nav{
-    background-color: steelblue;
+    background-color: var(--cor-padrão);
     padding: 10px;
 }
 
@@ -14,15 +20,15 @@ main{
 }
 
 h1 {
-    color: steelblue;
+    color: var(--cor-padrão);
 }
 
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--sombra);
 }
 
 p{
@@ -43,15 +49,15 @@ aside {
 aside img{
     width: 200px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--sombra);
     align-items: center;
 }
 
 footer {
     clear: both;
   margin-top: 15px;
-  border-top: 1px solid #000;
+  border-top: var(--border);
   text-align: center;
 }
