@@ -15,12 +15,11 @@ p {
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0 0 0 / .3);
     box-shadow: 0 0 30px #777;
+    
 }
 
 footer {
     border-top: 1px solid #555;
     padding-top: 5px;
-    /* Remova o comentário abaixo e observe os resultados. */
-
-    /* clear: both; */
+    clear: both;
 }
