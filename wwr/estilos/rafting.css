@@ -82,13 +82,13 @@ h2 {
     float: right;
     width: 125px;
 }
-
 footer {
     background-color: var(--cor-destaque2);
+    color: var(--cor-primaria);
 }
 
 footer p {
-    color: var(--cor-destaque1);
+    color: #fff;
 }
 
 .socialmedia img {
