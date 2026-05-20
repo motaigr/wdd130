@@ -1,0 +1,80 @@
+:root {
+    --cor-primaria: #1a3a2a;        /* verde escuro profundo */
+    --cor-secundaria: #2d6a4f;      /* verde médio */
+    --cor-destaque1: #e85d04;       /* laranja intenso */
+    --cor-destaque2: #f48c06;       /* laranja claro dourado */
+    --fonte-titulo: "Georgia", "Times New Roman", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--cor-destaque1);
+    color: #fff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
