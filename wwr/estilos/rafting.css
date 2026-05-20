@@ -1,8 +1,7 @@
 :root {
     --cor-primaria: #1a3a2a;        /* verde escuro profundo */
     --cor-secundaria: #2d6a4f;      /* verde médio */
-    --cor-destaque1: #e85d04;       /* laranja intenso */
-    --cor-destaque2: #f48c06;       /* laranja claro dourado */
+    --cor-destaque: #f48c06;       /* laranja claro dourado */
     --fonte-titulo: "Georgia", "Times New Roman", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -82,13 +81,14 @@ h2 {
     float: right;
     width: 125px;
 }
+
 footer {
-    background-color: var(--cor-destaque2);
-    color: var(--cor-primaria);
+    background-color: var(--cor-destaque);
+    color: var(--cor-primaria); 
 }
 
 footer p {
-    color: #fff;
+    color: var(--cor-primaria);
 }
 
 .socialmedia img {
