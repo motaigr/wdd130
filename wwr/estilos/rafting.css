@@ -15,7 +15,11 @@
 
 body{
     font-family: var(--fonte-body);
-    color: var(--cor-destaque1);
+    color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-secundaria);
 }
 
 header, main, footer{
@@ -74,7 +78,15 @@ h1{
     width: 125px;
 }
 
+footer {
+    background-color: var(--cor-destaque2);
+}
+
 .redes-sociais img {
     width: 30px;
     height: 30px;
+}
+
+.redes-sociais a, nav a, footer a {
+    text-decoration: none;
 }
