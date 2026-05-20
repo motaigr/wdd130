@@ -20,6 +20,7 @@ body{
 
 header {
     background-color: var(--cor-secundaria);
+    color: #fff; 
 }
 
 header, main, footer{
@@ -38,7 +39,7 @@ nav, p, section, article{
     padding: 8px;
 }
 
-.redes-sociais a{
+.socialmedia a{
     text-decoration: none;
 }
 
@@ -59,7 +60,7 @@ h1{
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
+    background-color: var(--cor-primaria);
     color: #fff;
 }
 
@@ -82,11 +83,11 @@ footer {
     background-color: var(--cor-destaque2);
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 30px;
     height: 30px;
 }
 
-.redes-sociais a, nav a, footer a {
+.socialmedia a, nav a, footer a {
     text-decoration: none;
 }
