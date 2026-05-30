@@ -63,7 +63,14 @@ nav, p, section, article{
     position: relative;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 h1{
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -78,6 +85,7 @@ h2 {
 }
 
 .hero article {
+    position: absolute;
     bottom: 10px;
     left: 10px;
     width: 55%;
