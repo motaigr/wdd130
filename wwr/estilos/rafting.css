@@ -2,6 +2,10 @@
     --cor-primaria: #1a3a2a;        /* verde escuro profundo */
     --cor-secundaria: #2d6a4f;      /* verde médio */
     --cor-destaque: #f48c06;       /* laranja claro dourado */
+    --cor-branca: #ffffff;       /* substitui #fff e white */
+    --cor-borda: #cccccc;        /* substitui #ccc */
+    --cor-preta: #000000;        /* substitui #000 */
+    --cor-overlay: rgba(0, 0, 0, 0.5);  /* substitui o rgba avulso */
     --fonte-titulo: "Georgia", "Times New Roman", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -19,17 +23,17 @@ body{
 
 header {
     background-color: var(--cor-secundaria);
-    color: #fff; 
+    color: var(--cor-branca); 
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--cor-borda);
 }
 
 header img{
     max-width: 100%;
     height: auto;
-    border: 1px solid #000;
+    border: 1px solid var(--cor-preta);
 }
 
 header nav {
@@ -69,7 +73,7 @@ nav, p, section, article{
     display: block;
 }
 
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -77,7 +81,7 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-primaria);
-    color: #fff;
+    color: var(--cor-branca);
 }
 
 h2 {
@@ -89,8 +93,8 @@ h2 {
     bottom: 10px;
     left: 10px;
     width: 55%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: var(--cor-overlay);
+    color: var(--cor-branca);
     padding: 8px;
 }
 
@@ -105,7 +109,7 @@ h2 {
     align-items: center;
     gap: 8px;
     margin-top: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-borda);
     padding: 8px;
 }
 
@@ -123,7 +127,7 @@ h2 {
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
     margin-top: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-borda);
     padding: 8px;
 }
 
