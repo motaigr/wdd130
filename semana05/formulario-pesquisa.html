@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+    <title>Pesquisa Usuário</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Pesquisa de Usuário</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Informações de contato</legend>
+
+                <div class="item-formulario coluna2">
+                    <label for="nome-usuario">Nome completo</label>
+                    <input type="text" id="nome-completo" name="nome-completo" required>
+                </div>
+                <div class="item-formulario coluna2">
+                    <label for="email-usuario">E-mail</label>
+                    <input type="email" name="email-usuario" id="email-usuario" required>
+                </div>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Perguntas</legend>
+
+                <div class="item-formulario coluna1">
+                    <label for="navegador">Qual o seu navegador favorito?</label>
+                    <select name="navegador" id="navegador">
+                        <option value="chrome">Google Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="opera">Opera</option>
+                    </select>
+                </div>
+                <div class="item-formulario coluna1">
+                    <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                <div class="item-formulario ">
+                    <label for="lugares">Liste os lugares que já morou.</label>
+                    <textarea name="lugares" id="lugares" rows="4"
+                        placeholder="São Paulo, Maceio, Aracaju, Curitiba"></textarea>
+                </div>
+
+                <button type="submit">Enviar pesquisa</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 | Formulário de Pesquisa</p>
+    </footer>
+</body>
+
+</html>

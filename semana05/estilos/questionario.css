@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center
+}
+
+main{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+form{
+    display: grid;
+    gap: 5px;
+}
+
+label{
+    margin-top: 15px;
+}
+
+input, textarea, select, button{
+    padding: 5px 10px;
+}
+
+button{
+    background-color: #3a3ab8;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+code {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-family: monospace;
+}
+
+pre {
+    margin: 0.5rem 0;
+    text-align: center;
+}
