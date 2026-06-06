@@ -223,3 +223,12 @@ footer p {
     object-fit: cover;
     object-position: top;
 }
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.redes-sociais a, nav a, footer a {
+    text-decoration: none;
+}
