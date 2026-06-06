@@ -43,6 +43,10 @@ header nav {
     padding-left: 16px;
 }
 
+header nav a {
+    color: var(--cor-branca);
+}
+
 header, main, footer{
     width: 840px;
     margin: 0 auto;
