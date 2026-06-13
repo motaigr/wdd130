@@ -170,6 +170,7 @@ footer p {
 
 .socialmedia a, nav a, footer a {
     text-decoration: none;
+    color: var(--cor-primaria);
 }
 
 .socialmedia a {
