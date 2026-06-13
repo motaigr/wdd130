@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fale Conosco - Correiras Rafting</title>
-    <meta name="description"
-        content="Entre em contato com a Corredeiras Rafting. Endereço, telefone, e-mail e formulário de contato. Estamos prontos para atender você!">
+    <title>Passeios - Corredeiras Rafting</title>
+    <meta name="description" content="Conheça os passeios de rafting da Corredeiras Rafting. Opções para iniciantes e experientes nas corredeiras do Paraná.">
     <meta name="author" content="Igor Augusto Mota Gonçalves">
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
@@ -22,72 +21,65 @@
         </nav>
     </header>
     <main>
-        <div class="contato-info">
-            <h1>Companhia de Rafting em Corredeiras</h1>
-            <p>Cachoeira de Cima, 83370-000</p>
-            <p>Antonina, Paraná</p>
-            <p>+55 41 99999-9999</p>
-            <p>info@corredeiras.com</p>
-        </div>
-
-        <div class="contato-principal">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2252.416707369357!2d-48.75024995362033!3d-25.247496457991556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1780710393799!5m2!1spt-PT!2sbr"
-                width="600" height="450" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <form>
-                <div class="formulario">
-                    <div class="item-formulario coluna2">
-                        <label for="nome-completo">Nome completo</label>
-                        <input type="text" id="nome-completo" name="nome-completo" placeholder="Digite aqui..."
-                            required>
-                    </div>
-                    <div class="item-formulario coluna2">
-                        <label for="email-usuario">E-mail</label>
-                        <input type="email" name="email-usuario" id="email-usuario" placeholder="Digite aqui..."
-                            required>
-                    </div>
-                    <div class="item-formulario">
-                        <label>Propósito da Mensagem</label>
-                        <fieldset>
-                            <label><input type="radio" name="proposito" id="duvida" value="duvida"> Dúvida Geral</label>
-                            <label><input type="radio" name="proposito" id="reserva" value="reserva"> Pergunta sobre
-                                Reserva</label>
-                            <label><input type="radio" name="proposito" id="sugestao" value="sugestao"> Sugestão</label>
-                        </fieldset>
-                    </div>
-
-                    <div class="item-formulario">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite aqui..."></textarea>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="box" id="box">
-                        <label for="box">Por favor, me inscreva na newsletter mensal</label>
-                    </div>
-
-                    <button type="submit">Entrar em contato!</button>
-                </div>
-            </form>
-        </div>
-
-        <section class="aventura funcionarios">
-            <h2>Estamos Aqui para Servi-lo</h2>
-            <figure>
-                <img src="imagens/rafael.webp" alt="Rafael, Guia Chefe de Rafting">
-                <figcaption>Rafael - Guia Chefe de Rafting</figcaption>
-            </figure>
-            <figure>
-                <img src="imagens/antonio.webp" alt="Antônio, Coordenador de Segurança">
-                <figcaption>Antônio - Coordenador de Segurança</figcaption>
-            </figure>
-            <figure>
-                <img src="imagens/marcela.webp" alt="Marcela, Instrutora de Rafting">
-                <figcaption>Marcela - Instrutora de Rafting</figcaption>
-            </figure>
+        <h1>Passeios de Rafting</h1>
+        <div class="passeios">
+         <section class="passeio">
+            <img src="imagens/passeio3.jpg" alt="Rio Cachoeira em Antonina">
+            <h2>Rafting para Iniciantes</h2>
+            <p>Ideal para quem nunca praticou rafting, este passeio percorre os trechos mais tranquilos do Rio Iguaçu. Com corredeiras de baixa intensidade e guias experientes, é perfeito para famílias e iniciantes que querem conhecer a aventura com segurança.</p>
         </section>
-
+        <section class="passeio">
+            <img src="imagens/passeio2.jpg" alt="Rafting no Rio Jordão">
+            <h2>Rafting Intermediário</h2>
+            <p>Para quem já tem alguma experiência, este trecho do Rio Iguaçu oferece corredeiras mais agitadas e paisagens deslumbrantes. Uma combinação equilibrada de adrenalina e contato com a natureza exuberante do Paraná.</p>
+        </section>
+        <section class="passeio">
+            <img src="imagens/passeio1.jpg" alt="Rafting no Rio Iguaçu">
+            <h2>Rafting Avançado</h2>
+            <p>O desafio máximo nas corredeiras do Rio Iguaçu. Recomendado para praticantes experientes que buscam emoção intensa, este trecho conta com corredeiras avançadas e guias especializados para uma aventura inesquecível.</p>
+        </section>
+        </div>
+        
+        <div>
+            <table>
+                <caption>Comparativo dos Passeios de Rafting</caption>
+                <thead>
+                    <tr>
+                        <th>Passeio</th>
+                        <th>Dificuldade</th>
+                        <th>Duração</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rafting para Iniciantes</td>
+                        <td>Baixa</td>
+                        <td>2 horas</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                    <tr>
+                        <td>Rafting Intermediário</td>
+                        <td>Média</td>
+                        <td>3 horas</td>
+                        <td>R$ 220,00</td>
+                    </tr>
+                    <tr>
+                        <td>Rafting Avançado</td>
+                        <td>Alta</td>
+                        <td>4 horas</td>
+                        <td>R$ 300,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <section class="cta-passeios">
+            <h2>Pronto para reservar sua aventura?</h2>
+            <p>Entre em contato conosco e garanta sua vaga nas corredeiras do Rio Iguaçu!</p>
+            <a href="contato.html">Fale Conosco</a>
+        </section>
+        
 
     </main>
     <footer>
