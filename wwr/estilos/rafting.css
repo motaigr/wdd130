@@ -286,7 +286,7 @@ footer p {
     text-align: center;
 }
 
-.newsletter button {
+button {
     padding: 8px 16px;
     background-color: var(--cor-destaque);
     color: var(--cor-primaria);
